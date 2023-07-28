@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Code Learning Extension</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to Code Learning!</h1>
+    <p>Interactive Lesson: Learn how to create a basic HTML page.</p>
+    <textarea id="codeEditor">
+      <!-- Initial code will be shown here -->
+      <!DOCTYPE html>
+      <html>
+      <head>
+        <title>My First Webpage</title>
+      </head>
+      <body>
+        <h1>Hello, World!</h1>
+      </body>
+      </html>
+    </textarea>
+    <button id="runBtn">Run Code</button>
+    <div id="output"></div>
+    <p>Code Challenge: Create a button that changes its text to "Clicked!" when clicked.</p>
+    <textarea id="challengeEditor">
+      // Your code for the challenge goes here
+      document.getElementById('myButton').addEventListener('click', function() {
+        // Your code here
+      });
+    </textarea>
+    <button id="challengeBtn">Check Challenge</button>
+    <div id="challengeOutput"></div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

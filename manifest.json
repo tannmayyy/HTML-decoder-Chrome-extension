@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Code Learning Extension",
+  "version": "1.0",
+  "description": "Learn how to code with interactive lessons and challenges.",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab"]
+}
